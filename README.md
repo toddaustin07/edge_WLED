@@ -3,7 +3,7 @@ A SmartThings Edge driver to provide a device interface to WLED servers
 
 **This is a port of the SmartThings Groovy-based DTH by Wesley Menezes (@w35l3y in the SmartThings Community)**
 
-I encourage others to take this driver code and extend it.
+*This driver is provided AS-IS.  I encourage others to take this driver code and extend it.*
 
 ### Pre-Requisites
 
