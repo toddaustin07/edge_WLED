@@ -35,5 +35,5 @@ Generally this setting should not be changed.  For the knowledgeable, this strin
 - Path: used to send additional custom parameters and values (in addition to those configured in Settings)  
 See this page for parameter options: https://kno.wled.ge/interfaces/http-api/
 - All fields can be set via automation routines
-- Additional SmartThings WLED devices can be created with the 'Create new device' button; they will be found in the 'No roomm assigned' room.
+- Additional SmartThings WLED devices can be created with the 'Create new device' button; they will be found in the 'No room assigned' room.
 
