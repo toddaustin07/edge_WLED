@@ -1,0 +1,2116 @@
+{
+    "dashboard": {
+        "states": [],
+        "actions": [],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "Effect Mode",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "name": "setEffectMode",
+                    "alternatives": [
+                        {
+                            "key": "0",
+                            "value": "Solid",
+                            "type": "active"
+                        },
+                        {
+                            "key": "27",
+                            "value": "Android",
+                            "type": "active"
+                        },
+                        {
+                            "key": "1",
+                            "value": "Blink",
+                            "type": "active"
+                        },
+                        {
+                            "key": "26",
+                            "value": "Blink Rainbow",
+                            "type": "active"
+                        },
+                        {
+                            "key": "91",
+                            "value": "Bouncing Balls",
+                            "type": "active"
+                        },
+                        {
+                            "key": "68",
+                            "value": "Bpm",
+                            "type": "active"
+                        },
+                        {
+                            "key": "2",
+                            "value": "Breathe",
+                            "type": "active"
+                        },
+                        {
+                            "key": "88",
+                            "value": "Candle",
+                            "type": "active"
+                        },
+                        {
+                            "key": "102",
+                            "value": "Candle Multi",
+                            "type": "active"
+                        },
+                        {
+                            "key": "28",
+                            "value": "Chase",
+                            "type": "active"
+                        },
+                        {
+                            "key": "31",
+                            "value": "Chase Flash",
+                            "type": "active"
+                        },
+                        {
+                            "key": "32",
+                            "value": "Chase Flash Rnd",
+                            "type": "active"
+                        },
+                        {
+                            "key": "30",
+                            "value": "Chase Rainbow",
+                            "type": "active"
+                        },
+                        {
+                            "key": "29",
+                            "value": "Chase Random",
+                            "type": "active"
+                        },
+                        {
+                            "key": "52",
+                            "value": "Circus",
+                            "type": "active"
+                        },
+                        {
+                            "key": "34",
+                            "value": "Colorful",
+                            "type": "active"
+                        },
+                        {
+                            "key": "8",
+                            "value": "Colorloop",
+                            "type": "active"
+                        },
+                        {
+                            "key": "74",
+                            "value": "Colortwinkles",
+                            "type": "active"
+                        },
+                        {
+                            "key": "67",
+                            "value": "Colorwaves",
+                            "type": "active"
+                        },
+                        {
+                            "key": "18",
+                            "value": "Dissolve",
+                            "type": "active"
+                        },
+                        {
+                            "key": "19",
+                            "value": "Dissolve Rnd",
+                            "type": "active"
+                        },
+                        {
+                            "key": "96",
+                            "value": "Drip",
+                            "type": "active"
+                        },
+                        {
+                            "key": "7",
+                            "value": "Dynamic",
+                            "type": "active"
+                        },
+                        {
+                            "key": "12",
+                            "value": "Fade",
+                            "type": "active"
+                        },
+                        {
+                            "key": "69",
+                            "value": "Fill Noise",
+                            "type": "active"
+                        },
+                        {
+                            "key": "66",
+                            "value": "Fire 2012",
+                            "type": "active"
+                        },
+                        {
+                            "key": "45",
+                            "value": "Fire Flicker",
+                            "type": "active"
+                        },
+                        {
+                            "key": "42",
+                            "value": "Fireworks",
+                            "type": "active"
+                        },
+                        {
+                            "key": "90",
+                            "value": "Fireworks 1D",
+                            "type": "active"
+                        },
+                        {
+                            "key": "89",
+                            "value": "Fireworks Starburst",
+                            "type": "active"
+                        },
+                        {
+                            "key": "87",
+                            "value": "Glitter",
+                            "type": "active"
+                        },
+                        {
+                            "key": "46",
+                            "value": "Gradient",
+                            "type": "active"
+                        },
+                        {
+                            "key": "53",
+                            "value": "Halloween",
+                            "type": "active"
+                        },
+                        {
+                            "key": "82",
+                            "value": "Halloween Eyes",
+                            "type": "active"
+                        },
+                        {
+                            "key": "100",
+                            "value": "Heartbeat",
+                            "type": "active"
+                        },
+                        {
+                            "key": "58",
+                            "value": "ICU",
+                            "type": "active"
+                        },
+                        {
+                            "key": "64",
+                            "value": "Juggle",
+                            "type": "active"
+                        },
+                        {
+                            "key": "75",
+                            "value": "Lake",
+                            "type": "active"
+                        },
+                        {
+                            "key": "41",
+                            "value": "Lighthouse",
+                            "type": "active"
+                        },
+                        {
+                            "key": "57",
+                            "value": "Lightning",
+                            "type": "active"
+                        },
+                        {
+                            "key": "47",
+                            "value": "Loading",
+                            "type": "active"
+                        },
+                        {
+                            "key": "44",
+                            "value": "Merry Christmas",
+                            "type": "active"
+                        },
+                        {
+                            "key": "76",
+                            "value": "Meteor",
+                            "type": "active"
+                        },
+                        {
+                            "key": "77",
+                            "value": "Meteor Smooth",
+                            "type": "active"
+                        },
+                        {
+                            "key": "59",
+                            "value": "Multi Comet",
+                            "type": "active"
+                        },
+                        {
+                            "key": "70",
+                            "value": "Noise 1",
+                            "type": "active"
+                        },
+                        {
+                            "key": "71",
+                            "value": "Noise 2",
+                            "type": "active"
+                        },
+                        {
+                            "key": "72",
+                            "value": "Noise 3",
+                            "type": "active"
+                        },
+                        {
+                            "key": "73",
+                            "value": "Noise 4",
+                            "type": "active"
+                        },
+                        {
+                            "key": "62",
+                            "value": "Oscillate",
+                            "type": "active"
+                        },
+                        {
+                            "key": "101",
+                            "value": "Pacifica",
+                            "type": "active"
+                        },
+                        {
+                            "key": "65",
+                            "value": "Palette",
+                            "type": "active"
+                        },
+                        {
+                            "key": "98",
+                            "value": "Percent",
+                            "type": "active"
+                        },
+                        {
+                            "key": "97",
+                            "value": "Plasma",
+                            "type": "active"
+                        },
+                        {
+                            "key": "48",
+                            "value": "Police",
+                            "type": "active"
+                        },
+                        {
+                            "key": "49",
+                            "value": "Police All",
+                            "type": "active"
+                        },
+                        {
+                            "key": "95",
+                            "value": "Popcorn",
+                            "type": "active"
+                        },
+                        {
+                            "key": "63",
+                            "value": "Pride 2015",
+                            "type": "active"
+                        },
+                        {
+                            "key": "78",
+                            "value": "Railway",
+                            "type": "active"
+                        },
+                        {
+                            "key": "43",
+                            "value": "Rain",
+                            "type": "active"
+                        },
+                        {
+                            "key": "9",
+                            "value": "Rainbow",
+                            "type": "active"
+                        },
+                        {
+                            "key": "33",
+                            "value": "Rainbow Runner",
+                            "type": "active"
+                        },
+                        {
+                            "key": "5",
+                            "value": "Random Colors",
+                            "type": "active"
+                        },
+                        {
+                            "key": "38",
+                            "value": "Red & Blue",
+                            "type": "active"
+                        },
+                        {
+                            "key": "79",
+                            "value": "Ripple",
+                            "type": "active"
+                        },
+                        {
+                            "key": "99",
+                            "value": "Ripple Rainbow",
+                            "type": "active"
+                        },
+                        {
+                            "key": "15",
+                            "value": "Running",
+                            "type": "active"
+                        },
+                        {
+                            "key": "37",
+                            "value": "Running 2",
+                            "type": "active"
+                        },
+                        {
+                            "key": "16",
+                            "value": "Saw",
+                            "type": "active"
+                        },
+                        {
+                            "key": "10",
+                            "value": "Scan",
+                            "type": "active"
+                        },
+                        {
+                            "key": "11",
+                            "value": "Scan Dual",
+                            "type": "active"
+                        },
+                        {
+                            "key": "40",
+                            "value": "Scanner",
+                            "type": "active"
+                        },
+                        {
+                            "key": "60",
+                            "value": "Scanner Dual",
+                            "type": "active"
+                        },
+                        {
+                            "key": "92",
+                            "value": "Sinelon",
+                            "type": "active"
+                        },
+                        {
+                            "key": "93",
+                            "value": "Sinelon Dual",
+                            "type": "active"
+                        },
+                        {
+                            "key": "94",
+                            "value": "Sinelon Rainbow",
+                            "type": "active"
+                        },
+                        {
+                            "key": "83",
+                            "value": "Solid Pattern",
+                            "type": "active"
+                        },
+                        {
+                            "key": "84",
+                            "value": "Solid Pattern Tri",
+                            "type": "active"
+                        },
+                        {
+                            "key": "20",
+                            "value": "Sparkle",
+                            "type": "active"
+                        },
+                        {
+                            "key": "21",
+                            "value": "Sparkle Dark",
+                            "type": "active"
+                        },
+                        {
+                            "key": "22",
+                            "value": "Sparkle+",
+                            "type": "active"
+                        },
+                        {
+                            "key": "85",
+                            "value": "Spots",
+                            "type": "active"
+                        },
+                        {
+                            "key": "86",
+                            "value": "Spots Fade",
+                            "type": "active"
+                        },
+                        {
+                            "key": "39",
+                            "value": "Stream",
+                            "type": "active"
+                        },
+                        {
+                            "key": "61",
+                            "value": "Stream 2",
+                            "type": "active"
+                        },
+                        {
+                            "key": "23",
+                            "value": "Strobe",
+                            "type": "active"
+                        },
+                        {
+                            "key": "25",
+                            "value": "Strobe Mega",
+                            "type": "active"
+                        },
+                        {
+                            "key": "24",
+                            "value": "Strobe Rainbow",
+                            "type": "active"
+                        },
+                        {
+                            "key": "6",
+                            "value": "Sweep",
+                            "type": "active"
+                        },
+                        {
+                            "key": "36",
+                            "value": "Sweep Random",
+                            "type": "active"
+                        },
+                        {
+                            "key": "13",
+                            "value": "Theater",
+                            "type": "active"
+                        },
+                        {
+                            "key": "14",
+                            "value": "Theater Rainbow",
+                            "type": "active"
+                        },
+                        {
+                            "key": "35",
+                            "value": "Traffic Light",
+                            "type": "active"
+                        },
+                        {
+                            "key": "54",
+                            "value": "Tri Chase",
+                            "type": "active"
+                        },
+                        {
+                            "key": "56",
+                            "value": "Tri Fade",
+                            "type": "active"
+                        },
+                        {
+                            "key": "55",
+                            "value": "Tri Wipe",
+                            "type": "active"
+                        },
+                        {
+                            "key": "17",
+                            "value": "Twinkle",
+                            "type": "active"
+                        },
+                        {
+                            "key": "81",
+                            "value": "Twinklecat",
+                            "type": "active"
+                        },
+                        {
+                            "key": "80",
+                            "value": "Twinklefox",
+                            "type": "active"
+                        },
+                        {
+                            "key": "51",
+                            "value": "Two Areas",
+                            "type": "active"
+                        },
+                        {
+                            "key": "50",
+                            "value": "Two Dots",
+                            "type": "active"
+                        },
+                        {
+                            "key": "3",
+                            "value": "Wipe",
+                            "type": "active"
+                        },
+                        {
+                            "key": "4",
+                            "value": "Wipe Random",
+                            "type": "active"
+                        }
+                    ],
+                    "argumentType": "integer"
+                },
+                "state": {
+                    "value": "effectMode.value",
+                    "valueType": "integer",
+                    "alternatives": [
+                        {
+                            "key": "0",
+                            "value": "Solid",
+                            "type": "active"
+                        },
+                        {
+                            "key": "27",
+                            "value": "Android",
+                            "type": "active"
+                        },
+                        {
+                            "key": "1",
+                            "value": "Blink",
+                            "type": "active"
+                        },
+                        {
+                            "key": "26",
+                            "value": "Blink Rainbow",
+                            "type": "active"
+                        },
+                        {
+                            "key": "91",
+                            "value": "Bouncing Balls",
+                            "type": "active"
+                        },
+                        {
+                            "key": "68",
+                            "value": "Bpm",
+                            "type": "active"
+                        },
+                        {
+                            "key": "2",
+                            "value": "Breathe",
+                            "type": "active"
+                        },
+                        {
+                            "key": "88",
+                            "value": "Candle",
+                            "type": "active"
+                        },
+                        {
+                            "key": "102",
+                            "value": "Candle Multi",
+                            "type": "active"
+                        },
+                        {
+                            "key": "28",
+                            "value": "Chase",
+                            "type": "active"
+                        },
+                        {
+                            "key": "31",
+                            "value": "Chase Flash",
+                            "type": "active"
+                        },
+                        {
+                            "key": "32",
+                            "value": "Chase Flash Rnd",
+                            "type": "active"
+                        },
+                        {
+                            "key": "30",
+                            "value": "Chase Rainbow",
+                            "type": "active"
+                        },
+                        {
+                            "key": "29",
+                            "value": "Chase Random",
+                            "type": "active"
+                        },
+                        {
+                            "key": "52",
+                            "value": "Circus",
+                            "type": "active"
+                        },
+                        {
+                            "key": "34",
+                            "value": "Colorful",
+                            "type": "active"
+                        },
+                        {
+                            "key": "8",
+                            "value": "Colorloop",
+                            "type": "active"
+                        },
+                        {
+                            "key": "74",
+                            "value": "Colortwinkles",
+                            "type": "active"
+                        },
+                        {
+                            "key": "67",
+                            "value": "Colorwaves",
+                            "type": "active"
+                        },
+                        {
+                            "key": "18",
+                            "value": "Dissolve",
+                            "type": "active"
+                        },
+                        {
+                            "key": "19",
+                            "value": "Dissolve Rnd",
+                            "type": "active"
+                        },
+                        {
+                            "key": "96",
+                            "value": "Drip",
+                            "type": "active"
+                        },
+                        {
+                            "key": "7",
+                            "value": "Dynamic",
+                            "type": "active"
+                        },
+                        {
+                            "key": "12",
+                            "value": "Fade",
+                            "type": "active"
+                        },
+                        {
+                            "key": "69",
+                            "value": "Fill Noise",
+                            "type": "active"
+                        },
+                        {
+                            "key": "66",
+                            "value": "Fire 2012",
+                            "type": "active"
+                        },
+                        {
+                            "key": "45",
+                            "value": "Fire Flicker",
+                            "type": "active"
+                        },
+                        {
+                            "key": "42",
+                            "value": "Fireworks",
+                            "type": "active"
+                        },
+                        {
+                            "key": "90",
+                            "value": "Fireworks 1D",
+                            "type": "active"
+                        },
+                        {
+                            "key": "89",
+                            "value": "Fireworks Starburst",
+                            "type": "active"
+                        },
+                        {
+                            "key": "87",
+                            "value": "Glitter",
+                            "type": "active"
+                        },
+                        {
+                            "key": "46",
+                            "value": "Gradient",
+                            "type": "active"
+                        },
+                        {
+                            "key": "53",
+                            "value": "Halloween",
+                            "type": "active"
+                        },
+                        {
+                            "key": "82",
+                            "value": "Halloween Eyes",
+                            "type": "active"
+                        },
+                        {
+                            "key": "100",
+                            "value": "Heartbeat",
+                            "type": "active"
+                        },
+                        {
+                            "key": "58",
+                            "value": "ICU",
+                            "type": "active"
+                        },
+                        {
+                            "key": "64",
+                            "value": "Juggle",
+                            "type": "active"
+                        },
+                        {
+                            "key": "75",
+                            "value": "Lake",
+                            "type": "active"
+                        },
+                        {
+                            "key": "41",
+                            "value": "Lighthouse",
+                            "type": "active"
+                        },
+                        {
+                            "key": "57",
+                            "value": "Lightning",
+                            "type": "active"
+                        },
+                        {
+                            "key": "47",
+                            "value": "Loading",
+                            "type": "active"
+                        },
+                        {
+                            "key": "44",
+                            "value": "Merry Christmas",
+                            "type": "active"
+                        },
+                        {
+                            "key": "76",
+                            "value": "Meteor",
+                            "type": "active"
+                        },
+                        {
+                            "key": "77",
+                            "value": "Meteor Smooth",
+                            "type": "active"
+                        },
+                        {
+                            "key": "59",
+                            "value": "Multi Comet",
+                            "type": "active"
+                        },
+                        {
+                            "key": "70",
+                            "value": "Noise 1",
+                            "type": "active"
+                        },
+                        {
+                            "key": "71",
+                            "value": "Noise 2",
+                            "type": "active"
+                        },
+                        {
+                            "key": "72",
+                            "value": "Noise 3",
+                            "type": "active"
+                        },
+                        {
+                            "key": "73",
+                            "value": "Noise 4",
+                            "type": "active"
+                        },
+                        {
+                            "key": "62",
+                            "value": "Oscillate",
+                            "type": "active"
+                        },
+                        {
+                            "key": "101",
+                            "value": "Pacifica",
+                            "type": "active"
+                        },
+                        {
+                            "key": "65",
+                            "value": "Palette",
+                            "type": "active"
+                        },
+                        {
+                            "key": "98",
+                            "value": "Percent",
+                            "type": "active"
+                        },
+                        {
+                            "key": "97",
+                            "value": "Plasma",
+                            "type": "active"
+                        },
+                        {
+                            "key": "48",
+                            "value": "Police",
+                            "type": "active"
+                        },
+                        {
+                            "key": "49",
+                            "value": "Police All",
+                            "type": "active"
+                        },
+                        {
+                            "key": "95",
+                            "value": "Popcorn",
+                            "type": "active"
+                        },
+                        {
+                            "key": "63",
+                            "value": "Pride 2015",
+                            "type": "active"
+                        },
+                        {
+                            "key": "78",
+                            "value": "Railway",
+                            "type": "active"
+                        },
+                        {
+                            "key": "43",
+                            "value": "Rain",
+                            "type": "active"
+                        },
+                        {
+                            "key": "9",
+                            "value": "Rainbow",
+                            "type": "active"
+                        },
+                        {
+                            "key": "33",
+                            "value": "Rainbow Runner",
+                            "type": "active"
+                        },
+                        {
+                            "key": "5",
+                            "value": "Random Colors",
+                            "type": "active"
+                        },
+                        {
+                            "key": "38",
+                            "value": "Red & Blue",
+                            "type": "active"
+                        },
+                        {
+                            "key": "79",
+                            "value": "Ripple",
+                            "type": "active"
+                        },
+                        {
+                            "key": "99",
+                            "value": "Ripple Rainbow",
+                            "type": "active"
+                        },
+                        {
+                            "key": "15",
+                            "value": "Running",
+                            "type": "active"
+                        },
+                        {
+                            "key": "37",
+                            "value": "Running 2",
+                            "type": "active"
+                        },
+                        {
+                            "key": "16",
+                            "value": "Saw",
+                            "type": "active"
+                        },
+                        {
+                            "key": "10",
+                            "value": "Scan",
+                            "type": "active"
+                        },
+                        {
+                            "key": "11",
+                            "value": "Scan Dual",
+                            "type": "active"
+                        },
+                        {
+                            "key": "40",
+                            "value": "Scanner",
+                            "type": "active"
+                        },
+                        {
+                            "key": "60",
+                            "value": "Scanner Dual",
+                            "type": "active"
+                        },
+                        {
+                            "key": "92",
+                            "value": "Sinelon",
+                            "type": "active"
+                        },
+                        {
+                            "key": "93",
+                            "value": "Sinelon Dual",
+                            "type": "active"
+                        },
+                        {
+                            "key": "94",
+                            "value": "Sinelon Rainbow",
+                            "type": "active"
+                        },
+                        {
+                            "key": "83",
+                            "value": "Solid Pattern",
+                            "type": "active"
+                        },
+                        {
+                            "key": "84",
+                            "value": "Solid Pattern Tri",
+                            "type": "active"
+                        },
+                        {
+                            "key": "20",
+                            "value": "Sparkle",
+                            "type": "active"
+                        },
+                        {
+                            "key": "21",
+                            "value": "Sparkle Dark",
+                            "type": "active"
+                        },
+                        {
+                            "key": "22",
+                            "value": "Sparkle+",
+                            "type": "active"
+                        },
+                        {
+                            "key": "85",
+                            "value": "Spots",
+                            "type": "active"
+                        },
+                        {
+                            "key": "86",
+                            "value": "Spots Fade",
+                            "type": "active"
+                        },
+                        {
+                            "key": "39",
+                            "value": "Stream",
+                            "type": "active"
+                        },
+                        {
+                            "key": "61",
+                            "value": "Stream 2",
+                            "type": "active"
+                        },
+                        {
+                            "key": "23",
+                            "value": "Strobe",
+                            "type": "active"
+                        },
+                        {
+                            "key": "25",
+                            "value": "Strobe Mega",
+                            "type": "active"
+                        },
+                        {
+                            "key": "24",
+                            "value": "Strobe Rainbow",
+                            "type": "active"
+                        },
+                        {
+                            "key": "6",
+                            "value": "Sweep",
+                            "type": "active"
+                        },
+                        {
+                            "key": "36",
+                            "value": "Sweep Random",
+                            "type": "active"
+                        },
+                        {
+                            "key": "13",
+                            "value": "Theater",
+                            "type": "active"
+                        },
+                        {
+                            "key": "14",
+                            "value": "Theater Rainbow",
+                            "type": "active"
+                        },
+                        {
+                            "key": "35",
+                            "value": "Traffic Light",
+                            "type": "active"
+                        },
+                        {
+                            "key": "54",
+                            "value": "Tri Chase",
+                            "type": "active"
+                        },
+                        {
+                            "key": "56",
+                            "value": "Tri Fade",
+                            "type": "active"
+                        },
+                        {
+                            "key": "55",
+                            "value": "Tri Wipe",
+                            "type": "active"
+                        },
+                        {
+                            "key": "17",
+                            "value": "Twinkle",
+                            "type": "active"
+                        },
+                        {
+                            "key": "81",
+                            "value": "Twinklecat",
+                            "type": "active"
+                        },
+                        {
+                            "key": "80",
+                            "value": "Twinklefox",
+                            "type": "active"
+                        },
+                        {
+                            "key": "51",
+                            "value": "Two Areas",
+                            "type": "active"
+                        },
+                        {
+                            "key": "50",
+                            "value": "Two Dots",
+                            "type": "active"
+                        },
+                        {
+                            "key": "3",
+                            "value": "Wipe",
+                            "type": "active"
+                        },
+                        {
+                            "key": "4",
+                            "value": "Wipe Random",
+                            "type": "active"
+                        }
+                    ]
+                }
+            },
+            "state": null
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "Effect Mode",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "0",
+                            "value": "Solid",
+                            "type": "active"
+                        },
+                        {
+                            "key": "27",
+                            "value": "Android",
+                            "type": "active"
+                        },
+                        {
+                            "key": "1",
+                            "value": "Blink",
+                            "type": "active"
+                        },
+                        {
+                            "key": "26",
+                            "value": "Blink Rainbow",
+                            "type": "active"
+                        },
+                        {
+                            "key": "91",
+                            "value": "Bouncing Balls",
+                            "type": "active"
+                        },
+                        {
+                            "key": "68",
+                            "value": "Bpm",
+                            "type": "active"
+                        },
+                        {
+                            "key": "2",
+                            "value": "Breathe",
+                            "type": "active"
+                        },
+                        {
+                            "key": "88",
+                            "value": "Candle",
+                            "type": "active"
+                        },
+                        {
+                            "key": "102",
+                            "value": "Candle Multi",
+                            "type": "active"
+                        },
+                        {
+                            "key": "28",
+                            "value": "Chase",
+                            "type": "active"
+                        },
+                        {
+                            "key": "31",
+                            "value": "Chase Flash",
+                            "type": "active"
+                        },
+                        {
+                            "key": "32",
+                            "value": "Chase Flash Rnd",
+                            "type": "active"
+                        },
+                        {
+                            "key": "30",
+                            "value": "Chase Rainbow",
+                            "type": "active"
+                        },
+                        {
+                            "key": "29",
+                            "value": "Chase Random",
+                            "type": "active"
+                        },
+                        {
+                            "key": "52",
+                            "value": "Circus",
+                            "type": "active"
+                        },
+                        {
+                            "key": "34",
+                            "value": "Colorful",
+                            "type": "active"
+                        },
+                        {
+                            "key": "8",
+                            "value": "Colorloop",
+                            "type": "active"
+                        },
+                        {
+                            "key": "74",
+                            "value": "Colortwinkles",
+                            "type": "active"
+                        },
+                        {
+                            "key": "67",
+                            "value": "Colorwaves",
+                            "type": "active"
+                        },
+                        {
+                            "key": "18",
+                            "value": "Dissolve",
+                            "type": "active"
+                        },
+                        {
+                            "key": "19",
+                            "value": "Dissolve Rnd",
+                            "type": "active"
+                        },
+                        {
+                            "key": "96",
+                            "value": "Drip",
+                            "type": "active"
+                        },
+                        {
+                            "key": "7",
+                            "value": "Dynamic",
+                            "type": "active"
+                        },
+                        {
+                            "key": "12",
+                            "value": "Fade",
+                            "type": "active"
+                        },
+                        {
+                            "key": "69",
+                            "value": "Fill Noise",
+                            "type": "active"
+                        },
+                        {
+                            "key": "66",
+                            "value": "Fire 2012",
+                            "type": "active"
+                        },
+                        {
+                            "key": "45",
+                            "value": "Fire Flicker",
+                            "type": "active"
+                        },
+                        {
+                            "key": "42",
+                            "value": "Fireworks",
+                            "type": "active"
+                        },
+                        {
+                            "key": "90",
+                            "value": "Fireworks 1D",
+                            "type": "active"
+                        },
+                        {
+                            "key": "89",
+                            "value": "Fireworks Starburst",
+                            "type": "active"
+                        },
+                        {
+                            "key": "87",
+                            "value": "Glitter",
+                            "type": "active"
+                        },
+                        {
+                            "key": "46",
+                            "value": "Gradient",
+                            "type": "active"
+                        },
+                        {
+                            "key": "53",
+                            "value": "Halloween",
+                            "type": "active"
+                        },
+                        {
+                            "key": "82",
+                            "value": "Halloween Eyes",
+                            "type": "active"
+                        },
+                        {
+                            "key": "100",
+                            "value": "Heartbeat",
+                            "type": "active"
+                        },
+                        {
+                            "key": "58",
+                            "value": "ICU",
+                            "type": "active"
+                        },
+                        {
+                            "key": "64",
+                            "value": "Juggle",
+                            "type": "active"
+                        },
+                        {
+                            "key": "75",
+                            "value": "Lake",
+                            "type": "active"
+                        },
+                        {
+                            "key": "41",
+                            "value": "Lighthouse",
+                            "type": "active"
+                        },
+                        {
+                            "key": "57",
+                            "value": "Lightning",
+                            "type": "active"
+                        },
+                        {
+                            "key": "47",
+                            "value": "Loading",
+                            "type": "active"
+                        },
+                        {
+                            "key": "44",
+                            "value": "Merry Christmas",
+                            "type": "active"
+                        },
+                        {
+                            "key": "76",
+                            "value": "Meteor",
+                            "type": "active"
+                        },
+                        {
+                            "key": "77",
+                            "value": "Meteor Smooth",
+                            "type": "active"
+                        },
+                        {
+                            "key": "59",
+                            "value": "Multi Comet",
+                            "type": "active"
+                        },
+                        {
+                            "key": "70",
+                            "value": "Noise 1",
+                            "type": "active"
+                        },
+                        {
+                            "key": "71",
+                            "value": "Noise 2",
+                            "type": "active"
+                        },
+                        {
+                            "key": "72",
+                            "value": "Noise 3",
+                            "type": "active"
+                        },
+                        {
+                            "key": "73",
+                            "value": "Noise 4",
+                            "type": "active"
+                        },
+                        {
+                            "key": "62",
+                            "value": "Oscillate",
+                            "type": "active"
+                        },
+                        {
+                            "key": "101",
+                            "value": "Pacifica",
+                            "type": "active"
+                        },
+                        {
+                            "key": "65",
+                            "value": "Palette",
+                            "type": "active"
+                        },
+                        {
+                            "key": "98",
+                            "value": "Percent",
+                            "type": "active"
+                        },
+                        {
+                            "key": "97",
+                            "value": "Plasma",
+                            "type": "active"
+                        },
+                        {
+                            "key": "48",
+                            "value": "Police",
+                            "type": "active"
+                        },
+                        {
+                            "key": "49",
+                            "value": "Police All",
+                            "type": "active"
+                        },
+                        {
+                            "key": "95",
+                            "value": "Popcorn",
+                            "type": "active"
+                        },
+                        {
+                            "key": "63",
+                            "value": "Pride 2015",
+                            "type": "active"
+                        },
+                        {
+                            "key": "78",
+                            "value": "Railway",
+                            "type": "active"
+                        },
+                        {
+                            "key": "43",
+                            "value": "Rain",
+                            "type": "active"
+                        },
+                        {
+                            "key": "9",
+                            "value": "Rainbow",
+                            "type": "active"
+                        },
+                        {
+                            "key": "33",
+                            "value": "Rainbow Runner",
+                            "type": "active"
+                        },
+                        {
+                            "key": "5",
+                            "value": "Random Colors",
+                            "type": "active"
+                        },
+                        {
+                            "key": "38",
+                            "value": "Red & Blue",
+                            "type": "active"
+                        },
+                        {
+                            "key": "79",
+                            "value": "Ripple",
+                            "type": "active"
+                        },
+                        {
+                            "key": "99",
+                            "value": "Ripple Rainbow",
+                            "type": "active"
+                        },
+                        {
+                            "key": "15",
+                            "value": "Running",
+                            "type": "active"
+                        },
+                        {
+                            "key": "37",
+                            "value": "Running 2",
+                            "type": "active"
+                        },
+                        {
+                            "key": "16",
+                            "value": "Saw",
+                            "type": "active"
+                        },
+                        {
+                            "key": "10",
+                            "value": "Scan",
+                            "type": "active"
+                        },
+                        {
+                            "key": "11",
+                            "value": "Scan Dual",
+                            "type": "active"
+                        },
+                        {
+                            "key": "40",
+                            "value": "Scanner",
+                            "type": "active"
+                        },
+                        {
+                            "key": "60",
+                            "value": "Scanner Dual",
+                            "type": "active"
+                        },
+                        {
+                            "key": "92",
+                            "value": "Sinelon",
+                            "type": "active"
+                        },
+                        {
+                            "key": "93",
+                            "value": "Sinelon Dual",
+                            "type": "active"
+                        },
+                        {
+                            "key": "94",
+                            "value": "Sinelon Rainbow",
+                            "type": "active"
+                        },
+                        {
+                            "key": "83",
+                            "value": "Solid Pattern",
+                            "type": "active"
+                        },
+                        {
+                            "key": "84",
+                            "value": "Solid Pattern Tri",
+                            "type": "active"
+                        },
+                        {
+                            "key": "20",
+                            "value": "Sparkle",
+                            "type": "active"
+                        },
+                        {
+                            "key": "21",
+                            "value": "Sparkle Dark",
+                            "type": "active"
+                        },
+                        {
+                            "key": "22",
+                            "value": "Sparkle+",
+                            "type": "active"
+                        },
+                        {
+                            "key": "85",
+                            "value": "Spots",
+                            "type": "active"
+                        },
+                        {
+                            "key": "86",
+                            "value": "Spots Fade",
+                            "type": "active"
+                        },
+                        {
+                            "key": "39",
+                            "value": "Stream",
+                            "type": "active"
+                        },
+                        {
+                            "key": "61",
+                            "value": "Stream 2",
+                            "type": "active"
+                        },
+                        {
+                            "key": "23",
+                            "value": "Strobe",
+                            "type": "active"
+                        },
+                        {
+                            "key": "25",
+                            "value": "Strobe Mega",
+                            "type": "active"
+                        },
+                        {
+                            "key": "24",
+                            "value": "Strobe Rainbow",
+                            "type": "active"
+                        },
+                        {
+                            "key": "6",
+                            "value": "Sweep",
+                            "type": "active"
+                        },
+                        {
+                            "key": "36",
+                            "value": "Sweep Random",
+                            "type": "active"
+                        },
+                        {
+                            "key": "13",
+                            "value": "Theater",
+                            "type": "active"
+                        },
+                        {
+                            "key": "14",
+                            "value": "Theater Rainbow",
+                            "type": "active"
+                        },
+                        {
+                            "key": "35",
+                            "value": "Traffic Light",
+                            "type": "active"
+                        },
+                        {
+                            "key": "54",
+                            "value": "Tri Chase",
+                            "type": "active"
+                        },
+                        {
+                            "key": "56",
+                            "value": "Tri Fade",
+                            "type": "active"
+                        },
+                        {
+                            "key": "55",
+                            "value": "Tri Wipe",
+                            "type": "active"
+                        },
+                        {
+                            "key": "17",
+                            "value": "Twinkle",
+                            "type": "active"
+                        },
+                        {
+                            "key": "81",
+                            "value": "Twinklecat",
+                            "type": "active"
+                        },
+                        {
+                            "key": "80",
+                            "value": "Twinklefox",
+                            "type": "active"
+                        },
+                        {
+                            "key": "51",
+                            "value": "Two Areas",
+                            "type": "active"
+                        },
+                        {
+                            "key": "50",
+                            "value": "Two Dots",
+                            "type": "active"
+                        },
+                        {
+                            "key": "3",
+                            "value": "Wipe",
+                            "type": "active"
+                        },
+                        {
+                            "key": "4",
+                            "value": "Wipe Random",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "effectMode.value",
+                    "valueType": "integer"
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "Effect Mode",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "0",
+                            "value": "Solid",
+                            "type": "active"
+                        },
+                        {
+                            "key": "27",
+                            "value": "Android",
+                            "type": "active"
+                        },
+                        {
+                            "key": "1",
+                            "value": "Blink",
+                            "type": "active"
+                        },
+                        {
+                            "key": "26",
+                            "value": "Blink Rainbow",
+                            "type": "active"
+                        },
+                        {
+                            "key": "91",
+                            "value": "Bouncing Balls",
+                            "type": "active"
+                        },
+                        {
+                            "key": "68",
+                            "value": "Bpm",
+                            "type": "active"
+                        },
+                        {
+                            "key": "2",
+                            "value": "Breathe",
+                            "type": "active"
+                        },
+                        {
+                            "key": "88",
+                            "value": "Candle",
+                            "type": "active"
+                        },
+                        {
+                            "key": "102",
+                            "value": "Candle Multi",
+                            "type": "active"
+                        },
+                        {
+                            "key": "28",
+                            "value": "Chase",
+                            "type": "active"
+                        },
+                        {
+                            "key": "31",
+                            "value": "Chase Flash",
+                            "type": "active"
+                        },
+                        {
+                            "key": "32",
+                            "value": "Chase Flash Rnd",
+                            "type": "active"
+                        },
+                        {
+                            "key": "30",
+                            "value": "Chase Rainbow",
+                            "type": "active"
+                        },
+                        {
+                            "key": "29",
+                            "value": "Chase Random",
+                            "type": "active"
+                        },
+                        {
+                            "key": "52",
+                            "value": "Circus",
+                            "type": "active"
+                        },
+                        {
+                            "key": "34",
+                            "value": "Colorful",
+                            "type": "active"
+                        },
+                        {
+                            "key": "8",
+                            "value": "Colorloop",
+                            "type": "active"
+                        },
+                        {
+                            "key": "74",
+                            "value": "Colortwinkles",
+                            "type": "active"
+                        },
+                        {
+                            "key": "67",
+                            "value": "Colorwaves",
+                            "type": "active"
+                        },
+                        {
+                            "key": "18",
+                            "value": "Dissolve",
+                            "type": "active"
+                        },
+                        {
+                            "key": "19",
+                            "value": "Dissolve Rnd",
+                            "type": "active"
+                        },
+                        {
+                            "key": "96",
+                            "value": "Drip",
+                            "type": "active"
+                        },
+                        {
+                            "key": "7",
+                            "value": "Dynamic",
+                            "type": "active"
+                        },
+                        {
+                            "key": "12",
+                            "value": "Fade",
+                            "type": "active"
+                        },
+                        {
+                            "key": "69",
+                            "value": "Fill Noise",
+                            "type": "active"
+                        },
+                        {
+                            "key": "66",
+                            "value": "Fire 2012",
+                            "type": "active"
+                        },
+                        {
+                            "key": "45",
+                            "value": "Fire Flicker",
+                            "type": "active"
+                        },
+                        {
+                            "key": "42",
+                            "value": "Fireworks",
+                            "type": "active"
+                        },
+                        {
+                            "key": "90",
+                            "value": "Fireworks 1D",
+                            "type": "active"
+                        },
+                        {
+                            "key": "89",
+                            "value": "Fireworks Starburst",
+                            "type": "active"
+                        },
+                        {
+                            "key": "87",
+                            "value": "Glitter",
+                            "type": "active"
+                        },
+                        {
+                            "key": "46",
+                            "value": "Gradient",
+                            "type": "active"
+                        },
+                        {
+                            "key": "53",
+                            "value": "Halloween",
+                            "type": "active"
+                        },
+                        {
+                            "key": "82",
+                            "value": "Halloween Eyes",
+                            "type": "active"
+                        },
+                        {
+                            "key": "100",
+                            "value": "Heartbeat",
+                            "type": "active"
+                        },
+                        {
+                            "key": "58",
+                            "value": "ICU",
+                            "type": "active"
+                        },
+                        {
+                            "key": "64",
+                            "value": "Juggle",
+                            "type": "active"
+                        },
+                        {
+                            "key": "75",
+                            "value": "Lake",
+                            "type": "active"
+                        },
+                        {
+                            "key": "41",
+                            "value": "Lighthouse",
+                            "type": "active"
+                        },
+                        {
+                            "key": "57",
+                            "value": "Lightning",
+                            "type": "active"
+                        },
+                        {
+                            "key": "47",
+                            "value": "Loading",
+                            "type": "active"
+                        },
+                        {
+                            "key": "44",
+                            "value": "Merry Christmas",
+                            "type": "active"
+                        },
+                        {
+                            "key": "76",
+                            "value": "Meteor",
+                            "type": "active"
+                        },
+                        {
+                            "key": "77",
+                            "value": "Meteor Smooth",
+                            "type": "active"
+                        },
+                        {
+                            "key": "59",
+                            "value": "Multi Comet",
+                            "type": "active"
+                        },
+                        {
+                            "key": "70",
+                            "value": "Noise 1",
+                            "type": "active"
+                        },
+                        {
+                            "key": "71",
+                            "value": "Noise 2",
+                            "type": "active"
+                        },
+                        {
+                            "key": "72",
+                            "value": "Noise 3",
+                            "type": "active"
+                        },
+                        {
+                            "key": "73",
+                            "value": "Noise 4",
+                            "type": "active"
+                        },
+                        {
+                            "key": "62",
+                            "value": "Oscillate",
+                            "type": "active"
+                        },
+                        {
+                            "key": "101",
+                            "value": "Pacifica",
+                            "type": "active"
+                        },
+                        {
+                            "key": "65",
+                            "value": "Palette",
+                            "type": "active"
+                        },
+                        {
+                            "key": "98",
+                            "value": "Percent",
+                            "type": "active"
+                        },
+                        {
+                            "key": "97",
+                            "value": "Plasma",
+                            "type": "active"
+                        },
+                        {
+                            "key": "48",
+                            "value": "Police",
+                            "type": "active"
+                        },
+                        {
+                            "key": "49",
+                            "value": "Police All",
+                            "type": "active"
+                        },
+                        {
+                            "key": "95",
+                            "value": "Popcorn",
+                            "type": "active"
+                        },
+                        {
+                            "key": "63",
+                            "value": "Pride 2015",
+                            "type": "active"
+                        },
+                        {
+                            "key": "78",
+                            "value": "Railway",
+                            "type": "active"
+                        },
+                        {
+                            "key": "43",
+                            "value": "Rain",
+                            "type": "active"
+                        },
+                        {
+                            "key": "9",
+                            "value": "Rainbow",
+                            "type": "active"
+                        },
+                        {
+                            "key": "33",
+                            "value": "Rainbow Runner",
+                            "type": "active"
+                        },
+                        {
+                            "key": "5",
+                            "value": "Random Colors",
+                            "type": "active"
+                        },
+                        {
+                            "key": "38",
+                            "value": "Red & Blue",
+                            "type": "active"
+                        },
+                        {
+                            "key": "79",
+                            "value": "Ripple",
+                            "type": "active"
+                        },
+                        {
+                            "key": "99",
+                            "value": "Ripple Rainbow",
+                            "type": "active"
+                        },
+                        {
+                            "key": "15",
+                            "value": "Running",
+                            "type": "active"
+                        },
+                        {
+                            "key": "37",
+                            "value": "Running 2",
+                            "type": "active"
+                        },
+                        {
+                            "key": "16",
+                            "value": "Saw",
+                            "type": "active"
+                        },
+                        {
+                            "key": "10",
+                            "value": "Scan",
+                            "type": "active"
+                        },
+                        {
+                            "key": "11",
+                            "value": "Scan Dual",
+                            "type": "active"
+                        },
+                        {
+                            "key": "40",
+                            "value": "Scanner",
+                            "type": "active"
+                        },
+                        {
+                            "key": "60",
+                            "value": "Scanner Dual",
+                            "type": "active"
+                        },
+                        {
+                            "key": "92",
+                            "value": "Sinelon",
+                            "type": "active"
+                        },
+                        {
+                            "key": "93",
+                            "value": "Sinelon Dual",
+                            "type": "active"
+                        },
+                        {
+                            "key": "94",
+                            "value": "Sinelon Rainbow",
+                            "type": "active"
+                        },
+                        {
+                            "key": "83",
+                            "value": "Solid Pattern",
+                            "type": "active"
+                        },
+                        {
+                            "key": "84",
+                            "value": "Solid Pattern Tri",
+                            "type": "active"
+                        },
+                        {
+                            "key": "20",
+                            "value": "Sparkle",
+                            "type": "active"
+                        },
+                        {
+                            "key": "21",
+                            "value": "Sparkle Dark",
+                            "type": "active"
+                        },
+                        {
+                            "key": "22",
+                            "value": "Sparkle+",
+                            "type": "active"
+                        },
+                        {
+                            "key": "85",
+                            "value": "Spots",
+                            "type": "active"
+                        },
+                        {
+                            "key": "86",
+                            "value": "Spots Fade",
+                            "type": "active"
+                        },
+                        {
+                            "key": "39",
+                            "value": "Stream",
+                            "type": "active"
+                        },
+                        {
+                            "key": "61",
+                            "value": "Stream 2",
+                            "type": "active"
+                        },
+                        {
+                            "key": "23",
+                            "value": "Strobe",
+                            "type": "active"
+                        },
+                        {
+                            "key": "25",
+                            "value": "Strobe Mega",
+                            "type": "active"
+                        },
+                        {
+                            "key": "24",
+                            "value": "Strobe Rainbow",
+                            "type": "active"
+                        },
+                        {
+                            "key": "6",
+                            "value": "Sweep",
+                            "type": "active"
+                        },
+                        {
+                            "key": "36",
+                            "value": "Sweep Random",
+                            "type": "active"
+                        },
+                        {
+                            "key": "13",
+                            "value": "Theater",
+                            "type": "active"
+                        },
+                        {
+                            "key": "14",
+                            "value": "Theater Rainbow",
+                            "type": "active"
+                        },
+                        {
+                            "key": "35",
+                            "value": "Traffic Light",
+                            "type": "active"
+                        },
+                        {
+                            "key": "54",
+                            "value": "Tri Chase",
+                            "type": "active"
+                        },
+                        {
+                            "key": "56",
+                            "value": "Tri Fade",
+                            "type": "active"
+                        },
+                        {
+                            "key": "55",
+                            "value": "Tri Wipe",
+                            "type": "active"
+                        },
+                        {
+                            "key": "17",
+                            "value": "Twinkle",
+                            "type": "active"
+                        },
+                        {
+                            "key": "81",
+                            "value": "Twinklecat",
+                            "type": "active"
+                        },
+                        {
+                            "key": "80",
+                            "value": "Twinklefox",
+                            "type": "active"
+                        },
+                        {
+                            "key": "51",
+                            "value": "Two Areas",
+                            "type": "active"
+                        },
+                        {
+                            "key": "50",
+                            "value": "Two Dots",
+                            "type": "active"
+                        },
+                        {
+                            "key": "3",
+                            "value": "Wipe",
+                            "type": "active"
+                        },
+                        {
+                            "key": "4",
+                            "value": "Wipe Random",
+                            "type": "active"
+                        }
+                    ],
+                    "command": "setEffectMode",
+                    "argumentType": "integer"
+                }
+            }
+        ]
+    },
+    "id": "partyvoice23922.wledeffectmode2",
+    "version": 1
+}

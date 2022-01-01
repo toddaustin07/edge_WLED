@@ -1,0 +1,43 @@
+{
+    "id": "partyvoice23922.wledeffectmode2",
+    "version": 1,
+    "status": "proposed",
+    "name": "wledeffectmode2",
+    "ephemeral": false,
+    "attributes": {
+        "effectMode": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 200
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setEffectMode",
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setEffectMode": {
+            "name": "setEffectMode",
+            "arguments": [
+                {
+                    "name": "effectMode",
+                    "optional": false,
+                    "schema": {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 200
+                    }
+                }
+            ]
+        }
+    }
+}

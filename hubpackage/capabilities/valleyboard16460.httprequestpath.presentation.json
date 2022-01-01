@@ -1,0 +1,40 @@
+{
+    "dashboard": {
+        "states": [],
+        "actions": [],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "Path",
+            "displayType": "textField",
+            "textField": {
+                "command": "setPath",
+                "value": "path.value"
+            },
+            "state": null
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "Path",
+                "displayType": "textField",
+                "textField": {
+                    "value": "path.value"
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "Path",
+                "displayType": "textField",
+                "textField": {
+                    "command": "setPath"
+                }
+            }
+        ]
+    },
+    "id": "valleyboard16460.httprequestpath",
+    "version": 1
+}
