@@ -1,0 +1,41 @@
+name: wled.v1
+components:
+- id: main
+  capabilities:
+    - id: switch
+      version: 1
+    - id: switchLevel
+      version: 1
+    - id: colorControl
+      version: 1
+    - id: partyvoice23922.wledeffectmode2
+      version: 1
+    - id: valleyboard16460.httprequestpath
+      version: 1
+    - id: partyvoice23922.createanother
+      version: 1
+  categories:
+    - name: Light
+metadata:
+  vid: 5cf26827-a052-3537-91ec-fbcc93139d01
+  mnmn: SmartThingsCommunity
+preferences:
+  - title: "Host"
+    name: phost
+    description: "IP address of WLED Server"
+    required: true
+    preferenceType: string
+    definition:
+      stringType: text
+      minLength: 10
+      maxLength: 21
+      default: "192.168.100.nn:80"
+  - title: "Path"
+    name: ppath
+    description: "WLED command path"
+    required: false
+    preferenceType: string
+    definition:
+      stringType: text
+      minLength: 3
+      default: "T=__switch__&SB=__level__&HU=__hue__&SA=__saturation__&FX=__effectMode__"
